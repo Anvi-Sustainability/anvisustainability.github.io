@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anvi</title>
+  <style>
+    section {
+      padding: 60px 0;
+    }
+
+    .ourwork:hover {
+      transform: scale(1.1);
+    }
+  </style>
+  <link rel="icon" href="logo-img.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xxl">
+      <a href="#intro" class="navbar-brand">
+        <i class="bi bi-tree-fill"></i>
+        <span class="fw-bold text-secondary">
+          Anvi
+        </span>
+      </a>
+      <!--Button for mobile apps-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse align-center justify-content-end" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#two-data">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#two-data">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#collapseOne">Contact Us</a>
+          </li>
+          <!--Thissssss-->
+          <span class="tt" data-bs-placement="bottom" title="Coming Soon">
+            <li class="nav-item d-none d-md-inline">
+              <a href="#" class="btn btn-outline-primary">Buy Now</a>
+            </li>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Main Image and intro Text-->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-md-5 text-centre text-md-start">
+          <h1>
+            <div class="display-2">Anvi</div>
+            <div class="display-5 text-muted">Sustainable Future</div>
+          </h1>
+          <p class="lead my-4">Creating a Sustainable Future for Subsequent Generations</p>
+          <span class="tt" data-bs-placement="bottom" title="Coming Soon">
+            <a href="#" class="btn btn-outline-success">Buy Now</a>
+          </span>
+        </div>
+        <div class="col-md-5 text-center">
+          <img src="logo-img.png" alt="Brand Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Pricing-->
+  <section id="pricing" class="mt-5" style="background-color: #EFF5F5;">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Pricing</h2>
+        <p class="lead text-muted">Chose a pricing plan that suits you.</p>
+      </div>
+
+      <div class="row my-5 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0" style="background-color: #EFF5F5;">
+            <div class="card-body text-center py-4">
+              <p class="display-5 my-4 text-primary fw-bold">Coming Soon</p>
+              <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9  col-lg-4 col-xl-3">
+          <div class="card border-secondary p-4" style="background-color: #EFF5F5;">
+            <div class="card-body text-center py-4">
+              <p class="display-5 my-4 text-primary fw-bold">Coming Soon</p>
+              <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0" style="background-color: #EFF5F5;">
+            <div class="card-body text-center py-4">
+              <p class="display-5 my-4 text-primary fw-bold">Coming Soon</p>
+              <a href="#" class="btn btn-secondary btn-lg">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--////ACCORDIANS/////-->
+  <div class="container-lg px-3 py-5 " id="two-data" style="margin-top: 6rem;">
+    <div class="row align-items-center g-3 justify-content-around">
+      <div class="col-10 col-lg-4">
+        <img src="anvi-img.jpg" alt="Stack Of Books" class="img-fluid">
+      </div>
+      <div class="col-10 col-lg-6 mt-5 mt-lg-0">
+        <div class="accordion " id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                About Us
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fs-5">
+                ANVI is a 3D Printing based Start-Up
+                that aims to create a sustainable
+                solution for subsequent generations.
+                ANVI focuses on developing materials
+                that have wood like properties and are
+                similar to wood in composition, feel,
+                configuration and structure.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Blog
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Coming Soon.....</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--OUR VISION-->
+  <section class="vision my-4 py-3">
+
+    <!--/////////////////////////////-->
+    <div class="row my-5 align-items-center justify-content-center py-5" style="background-color: #EFF5F5;">
+      <div class="text-center my-4">
+
+        <h2><i class="bi bi-globe"></i> Our Vision</h2>
+      </div>
+      <div class="col-8 col-lg-4 col-xl-4 m-3 rounded">
+        <div class="card shadow-lg" style="border-radius: 1.5rem;">
+          <img class="card-img-top" src="vision1.jpg" alt="Card image cap"
+            style="border-radius: 1.5rem 1.5rem 0rem 0rem;">
+          <div class="card-body" style="font-size: 1.15rem;">
+            <p class="card-text">Every year more than 3 million trees
+              are cut down for public usage taking
+              overall count to more than 10 million in
+              India. Our aim is to preserve it for
+              future generations and reduce carbon footprint
+              from mother earth as much as possible.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8  col-lg-4 col-xl-4 m-3">
+        <div class="card shadow-lg" style="border-radius: 1.5rem;">
+          <img class="card-img-top" src="vision2.jpg" alt="Card image cap"
+            style="border-radius: 1.5rem 1.5rem 0rem 0rem;">
+          <div class="card-body" style="font-size: 1.15rem;">
+            <p class="card-text">In ANVI we make sure that we produce high quality
+              wood like materials that can replace wood in future and
+              create a safe and unpolluted environment.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="work p-0">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2><i class="bi bi-people"></i> Our Work</h2>
+      </div>
+    <div class="row justify-content-around align-items-center ">
+      <div class="card col-8  col-lg-4 col-xl-4  m-5 ourwork" style="background-color: #EFEFEF;">
+        <img class="card-img-top" src="chair.JPG" alt="Card image cap">
+        <div class="card-body text-center">
+          <h5>CHAIR</h5>
+        </div>
+      </div>
+      <div class="card col-8  col-lg-4 col-xl-4 m-5 ourwork" style="background-color: #EFEFEF;">
+        <img class="card-img-top" src="woodenlog.JPG" alt="Card image cap">
+        <div class="card-body text-center">
+          <h5>WOODENLOG</h5>
+        </div>
+      </div>
+
+    </div>
+    <div class="row justify-content-around align-items-center ">
+      <div class="card col-8  col-lg-4 col-xl-4 m-5 ourwork" style="background-color: #EFEFEF;">
+        <img class="card-img-top" src="WhatsApp Image 2022-11-24 at 19.02.07.jpeg" alt="Card image cap">
+        <div class="card-body text-center">
+          <h5>TABLE</h5>
+        </div>
+      </div>
+      <div class="card col-8  col-lg-4 col-xl-4 m-5 ourwork" style="background-color: #EFEFEF;">
+        <img class="card-img-top" src="slicing.jpg" alt="Card image cap">
+        <div class="card-body text-center">
+          <h5>SLICING</h5>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="team" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+
+        <h2><i class="bi bi-people"></i> Our Team</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="list-group mb-3">
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">Piyush Jaswal</h5>
+              <small> <strong>Operation Head</strong></small>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ullam eligendi quia,
+                libero temporibus aspernatur fuga natus quaerat aut eum facilis asperiores autem id laborum ad nemo
+                vitae? Et vitae quos culpa necessitatibus laborum porro rem, officiis exercitationem ad voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="list-group mb-3">
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">Chaitanya Kapoor</h5><small><strong>Managerial and Financial Head</strong></small>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ullam eligendi quia,
+                libero temporibus aspernatur fuga natus quaerat aut eum facilis asperiores autem id laborum ad nemo
+                vitae? Et vitae quos culpa necessitatibus laborum porro rem, officiis exercitationem ad voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="list-group mb-3">
+            <div class="list-group-item py-3">
+              <h5 class="mb-1">Lalit Chandel</h5>
+              <small><strong>Techincal Head</strong></small>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ullam eligendi quia,
+                libero temporibus aspernatur fuga natus quaerat aut eum facilis asperiores autem id laborum ad nemo
+                vitae? Et vitae quos culpa necessitatibus laborum porro rem, officiis exercitationem ad voluptatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact mt-5 pb-4">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Contact US</h2>
+        <hr>
+        <div class="fs-5">
+          <strong><a href="https://instagram.com/anvi.sustainability?igshid=MDM4ZDc5MmU=" target="_blank"
+              class="link-dark" style="text-decoration: none;"><i class="bi bi-instagram"></i>
+              Instagram</a></strong><br>
+        </div>
+        <div class="fs-5">
+          <strong><a href="mailto:anvisustainability@gmail.com" class="link-dark" style="text-decoration: none;"><i
+                class="bi bi-envelope"></i>
+              Mail Us</a></strong>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+</body>
+
+</html>
+<!---->
